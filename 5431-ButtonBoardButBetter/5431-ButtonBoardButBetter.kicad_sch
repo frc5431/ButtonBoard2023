@@ -1906,7 +1906,7 @@
     (property "Value" "MCP3008" (at 131.4959 20.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 127 29.21 0)
+    (property "Footprint" "Socket:DIP_Socket-16_W4.3_W5.08_W7.62_W10.16_W10.9_3M_216-3340-00-0602J" (at 127 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf" (at 127 29.21 0)
