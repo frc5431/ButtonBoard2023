@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/assets/KiCad-RP-Pico-main/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
+  (lib (name "COM-09032")(type "KiCad")(uri "${KIPRJMOD}/assets/Joystick/COM-09032.kicad_sym")(options "")(descr ""))
+  (lib (name "PTA4543-2015DPB103")(type "KiCad")(uri "${KIPRJMOD}/assets/Linear Pot/PTA4543-2015DPB103.kicad_sym")(options "")(descr ""))
+)

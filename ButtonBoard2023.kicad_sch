@@ -1228,7 +1228,7 @@
     (property "Value" "R_Potentiometer_US" (at 81.28 36.83 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA4543_Single_Slide" (at 81.28 30.48 0)
+    (property "Footprint" "Linear Pot:TRIM_PTA4543-2015DPB103" (at 81.28 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 81.28 30.48 0)
@@ -1238,7 +1238,7 @@
     (pin "2" (uuid ce57c139-8f4c-4cf1-ab0b-8475ec6ae9e6))
     (pin "3" (uuid 6c07aa83-7734-44c0-b002-3b547748ca36))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "RV2") (unit 1)
         )
@@ -1263,7 +1263,7 @@
     )
     (pin "1" (uuid 2068f759-2b2c-4e1b-a218-c499ad82fe2d))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR033") (unit 1)
         )
@@ -1288,7 +1288,7 @@
     )
     (pin "1" (uuid 57d1a0d2-c966-46d1-953a-5096a84a2581))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR040") (unit 1)
         )
@@ -1313,7 +1313,7 @@
     )
     (pin "1" (uuid 4e131fc1-fd90-4148-aadc-93f9e518ec88))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR041") (unit 1)
         )
@@ -1330,7 +1330,7 @@
     (property "Value" "SW_DIP_x01" (at 147.955 102.489 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (at 147.955 106.934 0)
+    (property "Footprint" "KeyboardSwitch:SW_Cherry_MX_1.00u_PCB" (at 147.955 106.934 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 147.955 106.934 0)
@@ -1339,7 +1339,7 @@
     (pin "1" (uuid 5029edc6-5ed2-4775-ac72-1f6abc844d33))
     (pin "2" (uuid 223b6c10-f4a7-4341-b6d3-ab9896da3cb7))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "SW13") (unit 1)
         )
@@ -1364,7 +1364,7 @@
     )
     (pin "1" (uuid 7a365285-2fb1-4e9f-95aa-5c7704ec09d8))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR01") (unit 1)
         )
@@ -1389,7 +1389,7 @@
     )
     (pin "1" (uuid d5beb20a-45a9-443d-811e-60640032b104))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR024") (unit 1)
         )
@@ -1406,7 +1406,7 @@
     (property "Value" "SW_DIP_x01" (at 177.8 101.219 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (at 177.8 105.664 0)
+    (property "Footprint" "KeyboardSwitch:SW_Cherry_MX_1.00u_PCB" (at 177.8 105.664 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 177.8 105.664 0)
@@ -1415,7 +1415,7 @@
     (pin "1" (uuid ff9ac4ef-4e69-4def-bbe7-c96d8b85f356))
     (pin "2" (uuid 8d4f5296-7156-4165-8e40-9ac060ae5180))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "SW14") (unit 1)
         )
@@ -1440,7 +1440,7 @@
     )
     (pin "1" (uuid 213c4aad-fd27-4deb-8725-eb434af959c8))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR013") (unit 1)
         )
@@ -1465,7 +1465,7 @@
     )
     (pin "1" (uuid 74b13144-8459-4906-9db3-542af30c8406))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR08") (unit 1)
         )
@@ -1490,7 +1490,7 @@
     )
     (pin "1" (uuid f615fc77-5a7b-4dcb-b89b-52e325816c3d))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR020") (unit 1)
         )
@@ -1515,7 +1515,7 @@
     )
     (pin "1" (uuid 6835ceec-149a-45e0-95a4-f93560ffb14b))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR039") (unit 1)
         )
@@ -1539,7 +1539,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "H4") (unit 1)
         )
@@ -1556,7 +1556,7 @@
     (property "Value" "SW_DIP_x01" (at 178.435 72.644 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (at 178.435 77.089 0)
+    (property "Footprint" "KeyboardSwitch:SW_Cherry_MX_1.00u_PCB" (at 178.435 77.089 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 178.435 77.089 0)
@@ -1565,7 +1565,7 @@
     (pin "1" (uuid cb4501ec-a1b1-450f-bccb-111e7a0b7bf7))
     (pin "2" (uuid 24cd760a-5617-43bf-a0ec-0c232faf8a59))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "SW8") (unit 1)
         )
@@ -1590,7 +1590,7 @@
     )
     (pin "1" (uuid 9dab08a9-263a-4e4d-b0b0-601b4bb7983a))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR036") (unit 1)
         )
@@ -1615,7 +1615,7 @@
     )
     (pin "1" (uuid 7e6d15c8-f5e4-4a3e-a96c-08b37387bd59))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR016") (unit 1)
         )
@@ -1682,7 +1682,7 @@
     (pin "8" (uuid 88a1d09c-3e8f-4506-b827-eabbf5daf3d2))
     (pin "9" (uuid 1f879a0f-568b-4e52-af18-9d00ebc56a9f))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "U1") (unit 1)
         )
@@ -1699,7 +1699,7 @@
     (property "Value" "SW_DIP_x01" (at 178.435 58.674 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (at 178.435 63.119 0)
+    (property "Footprint" "KeyboardSwitch:SW_Cherry_MX_1.00u_PCB" (at 178.435 63.119 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 178.435 63.119 0)
@@ -1708,7 +1708,7 @@
     (pin "1" (uuid 4a666682-623a-4a2d-bc0e-b14a921c74ad))
     (pin "2" (uuid b24a9647-6b4e-4f7f-a0a6-7565699ea6fe))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "SW5") (unit 1)
         )
@@ -1733,7 +1733,7 @@
     )
     (pin "1" (uuid baa0b2ee-908d-4f4d-ad70-901724e5f02e))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR021") (unit 1)
         )
@@ -1758,7 +1758,7 @@
     )
     (pin "1" (uuid aada249a-b234-4daa-8d49-747111bdac4f))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR031") (unit 1)
         )
@@ -1782,7 +1782,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "H3") (unit 1)
         )
@@ -1807,7 +1807,7 @@
     )
     (pin "1" (uuid 633d0e7f-beff-4612-883c-b35d8757eee7))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR032") (unit 1)
         )
@@ -1832,7 +1832,7 @@
     )
     (pin "1" (uuid b377835a-c626-452a-9b6c-16a6ca5d1ba6))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR012") (unit 1)
         )
@@ -1849,7 +1849,7 @@
     (property "Value" "SW_DIP_x01" (at 177.8 86.614 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (at 177.8 91.059 0)
+    (property "Footprint" "KeyboardSwitch:SW_Cherry_MX_1.00u_PCB" (at 177.8 91.059 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 177.8 91.059 0)
@@ -1858,7 +1858,7 @@
     (pin "1" (uuid 8f0576a4-a568-45d6-aca4-d1bd869b9fbc))
     (pin "2" (uuid aba15c27-6fdb-4770-9f16-7e4413749b04))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "SW11") (unit 1)
         )
@@ -1883,7 +1883,7 @@
     )
     (pin "1" (uuid 67d6c848-5ea1-431c-a4f2-8cca65f3158f))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR022") (unit 1)
         )
@@ -1900,7 +1900,7 @@
     (property "Value" "SW_DIP_x01" (at 147.32 121.285 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (at 147.32 125.73 0)
+    (property "Footprint" "KeyboardSwitch:SW_Cherry_MX_1.00u_PCB" (at 147.32 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 147.32 125.73 0)
@@ -1909,7 +1909,7 @@
     (pin "1" (uuid 60046b9b-60a1-47be-a88d-ee399e398857))
     (pin "2" (uuid 1d68b4f9-a185-4ce4-8b03-0a6046f9b2b1))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "SW16") (unit 1)
         )
@@ -1934,7 +1934,7 @@
     )
     (pin "1" (uuid d031ed7a-61f7-49e1-a85d-de3b5da1ec85))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR05") (unit 1)
         )
@@ -1959,7 +1959,7 @@
     )
     (pin "1" (uuid e34b0b1b-92da-4a2e-8412-a605330efb46))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR043") (unit 1)
         )
@@ -1976,7 +1976,7 @@
     (property "Value" "SW_DIP_x01" (at 208.28 100.965 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (at 208.28 105.41 0)
+    (property "Footprint" "KeyboardSwitch:SW_Cherry_MX_1.00u_PCB" (at 208.28 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 208.28 105.41 0)
@@ -1985,7 +1985,7 @@
     (pin "1" (uuid e84b095f-b5c7-42c1-986b-c2a8ef4487ff))
     (pin "2" (uuid bad8c74a-3eff-4964-8d74-6613bf649be6))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "SW15") (unit 1)
         )
@@ -2010,7 +2010,7 @@
     )
     (pin "1" (uuid 0bfd6f5f-b877-4d4a-ac2b-9b8752913f54))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR03") (unit 1)
         )
@@ -2027,7 +2027,7 @@
     (property "Value" "SW_DIP_x01" (at 149.86 73.914 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (at 149.86 78.359 0)
+    (property "Footprint" "KeyboardSwitch:SW_Cherry_MX_1.00u_PCB" (at 149.86 78.359 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 149.86 78.359 0)
@@ -2036,7 +2036,7 @@
     (pin "1" (uuid d9b9b78f-d30c-4ef5-968c-03f5f9097cf3))
     (pin "2" (uuid cd53f42e-ecc6-4063-91f0-59c5c5c09952))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "SW7") (unit 1)
         )
@@ -2061,7 +2061,7 @@
     )
     (pin "1" (uuid d49e93dc-bf2b-4805-bfc2-247fe3c9e457))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR06") (unit 1)
         )
@@ -2087,7 +2087,7 @@
     (pin "1" (uuid ef689d47-631c-4a5b-9c55-781bb958438f))
     (pin "2" (uuid a22e9059-c388-48fb-9697-823e2972ff68))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "SW17") (unit 1)
         )
@@ -2112,7 +2112,7 @@
     )
     (pin "1" (uuid 675f5593-05f3-4d06-827e-16418d73639e))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR029") (unit 1)
         )
@@ -2129,7 +2129,7 @@
     (property "Value" "SW_DIP_x01" (at 207.01 58.039 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (at 207.01 62.484 0)
+    (property "Footprint" "KeyboardSwitch:SW_Cherry_MX_1.00u_PCB" (at 207.01 62.484 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 207.01 62.484 0)
@@ -2138,7 +2138,7 @@
     (pin "1" (uuid af6196b3-654f-49f0-b7ae-04c62406ce9a))
     (pin "2" (uuid 7df60a96-170e-4dc2-bc49-6f1fb1521dab))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "SW6") (unit 1)
         )
@@ -2163,7 +2163,7 @@
     )
     (pin "1" (uuid 67b89dbb-536c-4cec-a30a-a49596bdd147))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR011") (unit 1)
         )
@@ -2187,7 +2187,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "H2") (unit 1)
         )
@@ -2204,7 +2204,7 @@
     (property "Value" "SW_DIP_x01" (at 151.13 44.069 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (at 151.13 48.514 0)
+    (property "Footprint" "KeyboardSwitch:SW_Cherry_MX_1.00u_PCB" (at 151.13 48.514 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 151.13 48.514 0)
@@ -2213,7 +2213,7 @@
     (pin "1" (uuid 476661e8-6b43-46ad-9f3a-c40bb2fc3b13))
     (pin "2" (uuid 03d155dc-e3a2-4d93-9093-d240ea5a8c13))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "SW1") (unit 1)
         )
@@ -2230,7 +2230,7 @@
     (property "Value" "SW_DIP_x01" (at 207.01 44.069 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (at 207.01 48.514 0)
+    (property "Footprint" "KeyboardSwitch:SW_Cherry_MX_1.00u_PCB" (at 207.01 48.514 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 207.01 48.514 0)
@@ -2239,7 +2239,7 @@
     (pin "1" (uuid 1fd88106-0fa4-4873-b5d2-95035dc93470))
     (pin "2" (uuid 19c83eb1-40a2-456b-b210-c6686e2b0041))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "SW3") (unit 1)
         )
@@ -2264,7 +2264,7 @@
     )
     (pin "1" (uuid 65eb3a55-bd4d-44eb-bcc0-2f24289d8663))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR04") (unit 1)
         )
@@ -2289,7 +2289,7 @@
     )
     (pin "1" (uuid 507dbaed-d5f4-4ea2-a653-ed889b0e0a5b))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR035") (unit 1)
         )
@@ -2314,7 +2314,7 @@
     )
     (pin "1" (uuid 34180741-6106-4195-9570-dbd6f6c4d10e))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR025") (unit 1)
         )
@@ -2331,7 +2331,7 @@
     (property "Value" "MCP3008" (at 131.4959 20.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket" (at 127 29.21 0)
+    (property "Footprint" "Package_DIP:DIP-16_W7.62mm" (at 127 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf" (at 127 29.21 0)
@@ -2354,7 +2354,7 @@
     (pin "8" (uuid 2e842591-f9c6-4ac9-afaa-0d075e23526a))
     (pin "9" (uuid f4516d20-9eda-429d-a486-e198f5897247))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "U2") (unit 1)
         )
@@ -2379,7 +2379,7 @@
     )
     (pin "1" (uuid 84eecb2a-4194-4eef-9c18-fbd6a149112d))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR026") (unit 1)
         )
@@ -2403,7 +2403,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "H1") (unit 1)
         )
@@ -2428,7 +2428,7 @@
     )
     (pin "1" (uuid edb4409a-667b-489c-add4-8a37a62ec027))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR038") (unit 1)
         )
@@ -2453,7 +2453,7 @@
     )
     (pin "1" (uuid fb1520fe-00c4-4f91-b4a0-cdf807bad208))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR09") (unit 1)
         )
@@ -2478,7 +2478,7 @@
     )
     (pin "1" (uuid 2903de07-423e-473f-99cb-e4cd97cb9acb))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR017") (unit 1)
         )
@@ -2503,7 +2503,7 @@
     )
     (pin "1" (uuid abeed18e-fd10-4957-8234-261de0bc8367))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR010") (unit 1)
         )
@@ -2528,7 +2528,7 @@
     )
     (pin "1" (uuid a67004c4-d2bd-4fd8-ada3-82bd1350d9c0))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR027") (unit 1)
         )
@@ -2545,7 +2545,7 @@
     (property "Value" "SW_DIP_x01" (at 177.8 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (at 177.8 47.625 0)
+    (property "Footprint" "KeyboardSwitch:SW_Cherry_MX_1.00u_PCB" (at 177.8 47.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 177.8 47.625 0)
@@ -2554,7 +2554,7 @@
     (pin "1" (uuid 5d84f47b-2f4c-4aa1-bc81-f6cf8f6b7b73))
     (pin "2" (uuid f3131b98-097b-44aa-86e3-e99dfd56ce0d))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "SW2") (unit 1)
         )
@@ -2579,7 +2579,7 @@
     )
     (pin "1" (uuid aae076b6-680f-46a5-beaf-7bd9f8271ab7))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR014") (unit 1)
         )
@@ -2596,7 +2596,7 @@
     (property "Value" "SW_DIP_x01" (at 208.915 86.614 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (at 208.915 91.059 0)
+    (property "Footprint" "KeyboardSwitch:SW_Cherry_MX_1.00u_PCB" (at 208.915 91.059 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 208.915 91.059 0)
@@ -2605,7 +2605,7 @@
     (pin "1" (uuid 2d881a52-9dd7-461b-96f1-b497aeba09a9))
     (pin "2" (uuid 32ca56c0-fd91-4451-b24e-314acd33ebd6))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "SW12") (unit 1)
         )
@@ -2630,7 +2630,7 @@
     )
     (pin "1" (uuid 2680d419-a60a-4a15-9a1e-368403a3dcb3))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR02") (unit 1)
         )
@@ -2655,7 +2655,7 @@
     )
     (pin "1" (uuid 7da76b23-4f84-434e-9c5c-9d73668c1897))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR015") (unit 1)
         )
@@ -2680,7 +2680,7 @@
     )
     (pin "1" (uuid 6fe0c805-f35c-40f4-befd-665d232a5f07))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR034") (unit 1)
         )
@@ -2697,7 +2697,7 @@
     (property "Value" "SW_DIP_x01" (at 148.59 86.614 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (at 148.59 91.059 0)
+    (property "Footprint" "KeyboardSwitch:SW_Cherry_MX_1.00u_PCB" (at 148.59 91.059 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 148.59 91.059 0)
@@ -2706,7 +2706,7 @@
     (pin "1" (uuid 21cdc069-97af-401a-ac54-a040f6eea4c2))
     (pin "2" (uuid 140547b9-d5a1-4c58-9037-9137dc30ac4c))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "SW10") (unit 1)
         )
@@ -2731,7 +2731,7 @@
     )
     (pin "1" (uuid da301556-0f82-426a-9ab4-6356be46a456))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR028") (unit 1)
         )
@@ -2748,7 +2748,7 @@
     (property "Value" "COM-09032" (at 255.905 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "COM-09032:XDCR_COM-09032" (at 247.015 102.235 0)
+    (property "Footprint" "Joystick:XDCR_COM-09032" (at 247.015 102.235 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 247.015 102.235 0)
@@ -2779,7 +2779,7 @@
     (pin "V2" (uuid fb7a90f8-1431-4ae8-8b4b-28696d20f946))
     (pin "V3" (uuid 8b7271a2-a4b1-4e83-b42e-8305c3b81042))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "U4") (unit 1)
         )
@@ -2804,7 +2804,7 @@
     )
     (pin "1" (uuid 5517c0a1-8375-4bc7-ace5-8a53a1c31dab))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR023") (unit 1)
         )
@@ -2829,7 +2829,7 @@
     )
     (pin "1" (uuid 31d8c488-1d29-4858-a555-40f496de0585))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR07") (unit 1)
         )
@@ -2854,7 +2854,7 @@
     )
     (pin "1" (uuid 39ae5859-66b0-489c-9133-9c5b389e2808))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR030") (unit 1)
         )
@@ -2879,7 +2879,7 @@
     )
     (pin "1" (uuid b72a7eb7-55cb-4d64-9f75-af5010a42d00))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR019") (unit 1)
         )
@@ -2896,7 +2896,7 @@
     (property "Value" "R_Potentiometer_US" (at 55.88 36.83 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA4543_Single_Slide" (at 55.88 30.48 0)
+    (property "Footprint" "Linear Pot:TRIM_PTA4543-2015DPB103" (at 55.88 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 55.88 30.48 0)
@@ -2906,7 +2906,7 @@
     (pin "2" (uuid 3733fe0b-4e57-4a88-9e4a-0e79395ae9e4))
     (pin "3" (uuid f3caaaca-9fce-4452-ad99-cc2becc901ff))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "RV1") (unit 1)
         )
@@ -2931,7 +2931,7 @@
     )
     (pin "1" (uuid 0cf0e832-8162-448e-acbf-77af6060b5b8))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR018") (unit 1)
         )
@@ -2956,7 +2956,7 @@
     )
     (pin "1" (uuid 68346b1f-33b1-4250-ae40-1fdec91354e0))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "#PWR037") (unit 1)
         )
@@ -2973,7 +2973,7 @@
     (property "Value" "COM-09032" (at 262.89 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "COM-09032:XDCR_COM-09032" (at 254 61.595 0)
+    (property "Footprint" "Joystick:XDCR_COM-09032" (at 254 61.595 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 254 61.595 0)
@@ -3004,7 +3004,7 @@
     (pin "V2" (uuid e9bbf925-5bc7-4925-b577-35ce8e7c4ebc))
     (pin "V3" (uuid 866408c0-6ee1-474a-9eb0-220a9d870874))
     (instances
-      (project "5431-ButtonBoardButBetter"
+      (project "ButtonBoard2023"
         (path "/85ad268b-acfd-4dd1-a78b-2229ab217983"
           (reference "U3") (unit 1)
         )
