@@ -1,0 +1,9 @@
+CMakeFiles/*
+elf2uf2/*
+generated/*
+pioasm/*
+pico-sdk/*
+cmake_install.cmake
+CMakeCache.txt
+Makefile
+compile_commands.json
