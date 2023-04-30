@@ -112,6 +112,7 @@ static void hid_task_button(hid_gamepad_report_t &report)
       report.buttons |= gamepad_btn;
     }
   }
+  report.buttons = ~report.buttons;
 }
 
 static void hid_task_analog(hid_gamepad_report_t &report)
