@@ -123,7 +123,7 @@ static void hid_task_analog(hid_gamepad_report_t &report)
     input = mcp3008::encode(channel);
     output = xfer(input);
     uint32_t sensor_result = mcp3008::decode(output);
-    int8_t joystick_result = static_cast<int8_t>(sensor_result / 4 - 128);
+    int8_t joystick_result = static_cast<int8_t>(sensor_result / 8);
     switch (stick)
     {
     case left_x:
@@ -150,14 +150,6 @@ static void hid_task_analog(hid_gamepad_report_t &report)
   }
 }
 
-static bool hid_report_is_same(const hid_gamepad_report_t &a, const hid_gamepad_report_t &b)
-{
-  // Ensure that the gamepad report is packed. We cannot have random data between members.
-  static_assert(std::has_unique_object_representations<hid_gamepad_report_t>::value,
-                "hid_gamepad_report_t is not packed");
-  return std::memcmp(&a, &b, sizeof(hid_gamepad_report_t)) == 0;
-}
-
 static void hid_task()
 {
   static hid_gamepad_report_t old_report{};
@@ -165,11 +157,7 @@ static void hid_task()
 
   hid_task_button(report);
   hid_task_analog(report);
-  if (!hid_report_is_same(report, old_report))
-  {
-    tud_hid_report(REPORT_ID_GAMEPAD, &report, sizeof(report));
-    old_report = report;
-  }
+  tud_hid_report(REPORT_ID_GAMEPAD, &report, sizeof(report));
 }
 
 // The following functions are callbacks that must be defined but we dont use them.
