@@ -1,5 +1,6 @@
 #include <tuple>
 #include <cstring>
+#include <chrono>
 
 #include "pico/stdlib.h"
 #include "hardware/spi.h"
@@ -8,6 +9,8 @@
 #include "usb_descriptors.h"
 #include "mcp3008.h"
 
+using namespace std::chrono_literals;
+
 // 1 MHz
 #define SPI_SPEED 1000 * 1000
 #define SPI_INSTANCE spi0
@@ -15,6 +18,8 @@
 #define SPI_CSN_PIN 21
 #define SPI_TX_PIN 19
 #define SPI_RX_PIN 20
+#define LED_PIN 25
+#define LED_TIME 500ms
 
 enum gamepad_joysticks
 {
@@ -70,6 +75,9 @@ int main()
   board_init();
   tusb_init();
 
+  gpio_init(LED_PIN);
+  gpio_set_dir(LED_PIN, GPIO_OUT);
+
   for (auto [pin, _] : DIGITAL_MAPPINGS)
   {
     gpio_init(pin);
@@ -84,8 +92,15 @@ int main()
   gpio_set_function(SPI_TX_PIN, GPIO_FUNC_SPI);
   gpio_set_function(SPI_SCK_PIN, GPIO_FUNC_SPI);
 
+  auto update_time = std::chrono::high_resolution_clock::now();
   while (1)
   {
+    auto current_time = std::chrono::high_resolution_clock::now();
+    if (current_time - update_time > LED_TIME)
+    {
+      update_time = current_time;
+      gpio_put(LED_PIN, !gpio_get(LED_PIN));
+    }
     // tinyusb device task
     tud_task();
 
