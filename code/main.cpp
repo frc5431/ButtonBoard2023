@@ -123,7 +123,7 @@ static void hid_task_analog(hid_gamepad_report_t &report)
     input = mcp3008::encode(channel);
     output = xfer(input);
     uint32_t sensor_result = mcp3008::decode(output);
-    int8_t joystick_result = static_cast<int8_t>(sensor_result / 8);
+    int8_t joystick_result = static_cast<int8_t>(sensor_result / 4 - 127);
     switch (stick)
     {
     case left_x:
